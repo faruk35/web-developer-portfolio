@@ -7,7 +7,7 @@
 }
 /* This is Shared coding css  */
 .secondary-bg{
-    color: #fff8f3;
+    background-color: #fff8f3;
 }
 .text-primary{
     color: #fd6e0a;
@@ -88,12 +88,14 @@ nav ul li a{
 }
 main section{
     margin-top: 130px;
+    margin-bottom: 40px;
 }
 /* about section starts from here  */
 .about{
     border-radius: 10px;
     text-align: center;
     color: black;
+    padding: 40px;
 }
 .about-items{
     display: flex;
@@ -111,4 +113,42 @@ main section{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.6);
+}
+/* resume style starts from here  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr{
+    margin-top: 20px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-subtitle, .experience-description{
+    color: #757575;
+}
+/* footer style starts from  here  */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 120px  220px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 6px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 20px ;
+    margin-bottom: 25px ;
+    border: none;
+}
+footer .btn-primary{
+    margin-top: -50px;
 }
